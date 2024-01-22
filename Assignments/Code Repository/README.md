@@ -14,4 +14,4 @@ In this assignment Dr.Griffin told us to create a github repository for this cou
 
 ### Instructions
 
-This is a link to the instructions. https://github.com/rugbyprof/4143-PLC/tree/main/Assignments/A02
+This is a link to the instructions. https://github.com/rugbyprof/4443-5373-Mobile-Apps/tree/master/Assignments/00-A01
