@@ -8,7 +8,7 @@ In this assignment we had to create a digital ocean account, create our own serv
 
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | 165.227.222.91 | This is the IP address for my digital ocean project. |
+|   1   | 165.227.222.91 | This is the IP address for the server I created on digital ocean. |
 
 
 
