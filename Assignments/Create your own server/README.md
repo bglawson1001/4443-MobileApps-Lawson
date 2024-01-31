@@ -2,7 +2,7 @@
 ### Brayden Lawson
 ### Description:
 
-In this assignment we had to create a digital ocean account, create our own server, set up WSL (if we have a windows system), and give Dr.Griffin access to our server.
+In this assignment we had to create a digital ocean account, create our own server, set up WSL (if we have a windows system), and give Dr.Griffin access to our server. 
 
 ### Files
 
