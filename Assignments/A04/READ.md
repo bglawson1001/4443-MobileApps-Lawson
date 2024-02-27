@@ -10,7 +10,7 @@ API can interact with the API in various ways.
 |   #   | IP Address     | Description                      |
 | :---: | -------- | -------------------------------- |
 |   1   | [165.227.222.91] | IP Address. |
-|   2   | [http://165.227.222.91:8084] | API. |
+|   2   | http://165.227.222.91:8084] | API. |
 
 
 ### Instructions
