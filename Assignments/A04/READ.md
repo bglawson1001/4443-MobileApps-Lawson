@@ -7,10 +7,10 @@ API can interact with the API in various ways.
 
 ### Files
 
-|   #   | File     | Description                      |
+|   #   | IP Address     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | [Class Roster](https://docs.google.com/spreadsheets/d/1Ho6uAP-2KbAX4f_sv9KdA5Eszz7feF5p0I5YRFrXcfQ/edit#gid=1094049050) | Class Roster. |
-|   2   | [Slack Channel](https://app.slack.com/client/TBMBG710S/C05PVBFRGES) | Slack Channel. |
+|   1   | [165.227.222.91] | IP Address. |
+|   2   | [http://165.227.222.91:8084] | API. |
 
 
 ### Instructions
