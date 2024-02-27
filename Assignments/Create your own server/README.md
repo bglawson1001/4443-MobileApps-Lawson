@@ -6,7 +6,7 @@ In this assignment we had to create a digital ocean account, create our own serv
 
 ### Files
 
-|   #   | File     | Description                      |
+|   #   | IP Address     | Description                      |
 | :---: | -------- | -------------------------------- |
 |   1   | 165.227.222.91 | This is the IP address for the server I created on digital ocean. Copy and pasting http://165.227.222.91:8083 takes you to it. It's on port 8083. |
 
