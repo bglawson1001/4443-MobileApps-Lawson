@@ -4,7 +4,7 @@
 
 In this assignment we had to create a digital ocean account, create our own server, set up WSL (if we have a windows system), and give Dr.Griffin access to our server. 
 
-### Files
+### Files and IP Address
 
 |   #   | Name     | Description                      |
 | :---: | -------- | -------------------------------- |
