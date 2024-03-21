@@ -7,7 +7,7 @@ API can interact with the API in various ways.
 
 ### Files
 
-|   #   | IP Address     | Description                |
+|   #   | Description                |
 | :---: | -------- | -------------------------------- |
 |   1   | 165.227.222.91 | IP Address.       |
 |   2   | http://165.227.222.91:8084 | API. |
