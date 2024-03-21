@@ -19,7 +19,7 @@ API can interact with the API in various ways.
 
 ### Instructions
 
-This is a link to the instructions. https://github.com/rugbyprof/4443-5373-Mobile-Apps/tree/master/Assignments/04-A04
+This is a link to Dr.Griffin's instructions. https://github.com/rugbyprof/4443-5373-Mobile-Apps/tree/master/Assignments/04-A04
 
 
 
