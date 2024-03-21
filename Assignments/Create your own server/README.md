@@ -15,5 +15,5 @@ In this assignment we had to create a digital ocean account, create our own serv
 
 ### Instructions
 It uses a virtual enviornment source .venv/bin/activate
-https://github.com/rugbyprof/4443-5373-Mobile-Apps/tree/master/Assignments/03-A03
+This link takes you to Dr.Griffin's instructions. https://github.com/rugbyprof/4443-5373-Mobile-Apps/tree/master/Assignments/03-A03
 
