@@ -4,9 +4,9 @@
 
 In this assignment Dr.Griffin told us to create a github repository for this course. This is where all of our assignments will be turned in.
 
-### Files
+### Repository
 
-|   #   | File     | Description                      |
+|   #   | Repository     | Description                      |
 | :---: | -------- | -------------------------------- |
 |   1   | [Code Repository](https://github.com/bglawson1001/4443-MobileApps-Lawson) | My Code Repository. |
 
