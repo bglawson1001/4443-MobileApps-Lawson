@@ -1,6 +1,6 @@
 ## Assignment 4 - Mongo DB
 #### Due: 02-20-2024 (Tue @ 11 or 4)
-#### Instructions about the assignment from Dr.Grffin
+
 
 ## Files
 
