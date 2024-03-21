@@ -15,8 +15,6 @@ API can interact with the API in various ways.
 
 
 
-https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/Mongo%20DB/A04/candyAPI/api.py
-
 
 ### Instructions
 
