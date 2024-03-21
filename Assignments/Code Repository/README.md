@@ -8,7 +8,7 @@ In this assignment Dr.Griffin told us to create a github repository for this cou
 
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | [Code Repository](https://github.com/bglawson1001/4143-PLC-Lawson/tree/main) | My Code Repository. |
+|   1   | [Code Repository](https://github.com/bglawson1001/4443-MobileApps-Lawson/tree/main/Assignments/Code%20Repository) | My Code Repository. |
 
 
 
