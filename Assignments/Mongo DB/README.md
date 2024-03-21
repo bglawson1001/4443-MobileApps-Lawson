@@ -7,9 +7,9 @@ API can interact with the API in various ways.
 
 ### Files
 
-|   #   | IP Address     | Description                      |
+|   #   | IP Address     | Description                |
 | :---: | -------- | -------------------------------- |
-|   1   | 165.227.222.91 | IP Address. |
+|   1   | 165.227.222.91 | IP Address.       |
 |   2   | http://165.227.222.91:8084 | API. |
 [A04 Folder](https://github.com/bglawson1001/4443-MobileApps-Lawson/tree/main/Assignments/Mongo%20DB/A04) | This is the code I used for A04 in order to add routes to my candy API. |
 
