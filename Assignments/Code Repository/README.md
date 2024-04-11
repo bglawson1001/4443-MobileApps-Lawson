@@ -1,8 +1,8 @@
-## A01 - Code Repository
+## A05 - React + FastAPI + MongoDB
 ### Brayden Lawson
 ### Description:
 
-In this assignment Dr.Griffin told us to create a github repository for this course. This is where all of our assignments will be turned in.
+In this assignment Dr.Griffin is having us add various functionality to an app. This assignment in particular focuses on login and registration.
 
 ### Repository
 
@@ -14,4 +14,4 @@ In this assignment Dr.Griffin told us to create a github repository for this cou
 
 ### Instructions
 
-This is a link to the instructions. https://github.com/rugbyprof/4443-5373-Mobile-Apps/tree/master/Assignments/00-A01
+This is a link to the instructions. https://github.com/rugbyprof/4443-5373-Mobile-Apps/tree/master/Assignments/05-A05
