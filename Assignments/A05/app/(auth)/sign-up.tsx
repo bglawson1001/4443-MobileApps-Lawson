@@ -16,7 +16,7 @@ const SignUpScreen = () => {
   const handleSignUp = async () => {
     try {
       // Make a POST request to register the user
-      const response = await axios.post('http://143.198.158.17:8084/register', {
+      const response = await axios.post('http://165.227.222.91:8084/register', {
         first_name,
         last_name,
         username,
