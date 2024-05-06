@@ -10,7 +10,7 @@ In this assignment Dr.Griffin wanted us to start adding functionality to our app
 | :---: | -------- | -------------------------------- |
 |   1   | [login.tsx](https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/A05/app/(auth)/login.tsx) | This is the file that contains the code for the login.  |
 |   2   | [sign-up.tsx](https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/A05/app/(auth)/sign-up.tsx) | This file contains the code for the registration. 
-|   3   | [Search.tsx](https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/A05/app/(auth)/sign-up.tsx) | This file contains the code for the registration. |
+|   3   | [Search.tsx](https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/A05/components/Search.tsx) | This file contains the code for the registration. |
 
 
 ### Partner
