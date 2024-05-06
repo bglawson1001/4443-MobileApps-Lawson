@@ -8,7 +8,7 @@ In this assignment Dr.Griffin wanted us to add a chat feature to our app that wo
 
 |   #   | Name     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | [chat.tsx](https://github.com/rugbyprof/4443-5373-Mobile-Apps/tree/master/Assignments/07-A07) | This is the file that contains the code for the chat screen.  |
+|   1   | [chat.tsx](https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/A05/app/(tabs)/chat.tsx) | This is the file that contains the code for the chat screen.  |
 
 
 ### Partner
