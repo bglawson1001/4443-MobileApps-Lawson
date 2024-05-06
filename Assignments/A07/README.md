@@ -2,7 +2,7 @@
 ### Brayden Lawson
 ### Description:
 
-In this assignment Dr.Griffin wanted us to add a chat feature to our app that would allow us to click on a users name and send a message to them. This particular assignment is frontend only.
+In this assignment Dr.Griffin wanted us to add a chat feature to our app that would allow us to click on a users name and send a message to them. This particular assignment is frontend only. There is no backend.
 
 ### Files
 
