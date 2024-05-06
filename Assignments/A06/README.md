@@ -13,8 +13,7 @@ This means, that when you build your map page, you will need to join your users 
 
 |   #   | Name     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | [login.tsx](https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/A05/app/(auth)/login.tsx) | This is the file that contains the code for the login .  |
-|   2   | [sign-up.tsx](https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/A05/app/(auth)/sign-up.tsx) | This file contains the code for the registration. |
+|   1   | [location.tsx](https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/A05/app/(tabs)/location.tsx) | This is the file that contains the code for the location screen .  |
 
 
 ### Partner
