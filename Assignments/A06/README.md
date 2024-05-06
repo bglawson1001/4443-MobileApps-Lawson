@@ -9,7 +9,7 @@ When a users pin  is clicked in your map, it should show their first and last na
 Knowing that you need to show first / last name I am also restricting your location collection or table to only contain a users id, their location, and a timestamp.
 This means, that when you build your map page, you will need to join your users collection and locations collection to get all necessary information. 
 
-### Files and IP Address
+### Files
 
 |   #   | Name     | Description                      |
 | :---: | -------- | -------------------------------- |
