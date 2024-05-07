@@ -15,6 +15,7 @@ import hashlib
 # Builtin libraries
 import os
 from random import shuffle
+from datetime import datetime
 """
            _____ _____   _____ _   _ ______ ____
      /\   |  __ \_   _| |_   _| \ | |  ____/ __ \
@@ -134,6 +135,31 @@ async def register_user(user: User):
     # Insert user into MongoDB
     users_collection.insert_one(user.dict())
     return {"success": True, "message": "User registered successfully"}
+
+class Location(BaseModel):
+    username: str
+    longitude: float
+    lattitude: float
+    timestamp: datetime
+
+@app.post("/addlocation", tags=["Locations"])
+async def add_location(location: Location):
+    """
+    Add a location for a user with their username.
+    """
+    try:
+        # Set the collection to "locations"
+        mm.setCollection("locations")
+        # Convert timestamp to ISO format
+        location.timestamp = location.timestamp.isoformat()
+        # Insert the new location data into the collection
+        mm.post(document=location.dict())
+        # Return a success message
+        return {"success": True, "message": "Location added successfully"}
+    except Exception as e:
+        # Return an error message if an exception occurs
+        raise HTTPException(status_code=500, detail=str(e))
+
 # User login endpoint
 @app.post("/login", tags=["User"])
 async def login_user(login: Login):
@@ -229,20 +255,88 @@ def list_categories():
     """
     categories = collection.distinct("category")
     return {"categories": categories}
-@app.get("/candies")
+@app.get("/search")
 def get_candies_by_keyword(keyword: str = Query(..., title="Keyword in Name")):
     """
-    Retrieve candies containing the specified keyword in their name.
+    Retrieve candies containing the specified keyword in their name or description.
     """
-    mm.setCollection("candies")
-    result = mm.get(query={"name": {"$regex": keyword, "$options": "i"}})
-    if result.get("success"):
-        return JSONResponse(content=result["data"])
+    print("running candies route")
+    # Access the candies collection
+    candies_collection = db["candies"]
+    # Query the candies collection for candies containing the keyword using $text search
+    result = candies_collection.find(
+        {"$text": {"$search": keyword}},
+        {"_id": 0}  # Exclude _id field from the result
+    )
+    # Prepare the response
+    candies = list(result)  # Convert cursor to list
+    if candies:
+        return {"candies": candies}
     else:
-        return JSONResponse(
-            content={"message": "Error occurred while fetching candies."},
-            status_code=500,
+        raise HTTPException(status_code=404, detail="Candies not found")
+    
+@app.get("/candies/{highest_price}/{lowest_price}")
+def get_candies_by_price(lowest_price: float, highest_price: float):
+    """
+    Obtains candies within a certain price range.
+    """
+
+    price_range_query = {"price": {"$gte": lowest_price, "$lte": highest_price}}
+    mm.setCollection("candies")
+    rangeQuery = mm.get(
+            query=price_range_query,
+            filter={"_id": 0, "price": 1, "name": 1},
+            sort_criteria={"price": -1},
         )
+    return(rangeQuery)
+
+pipeline = [
+    {
+        "$lookup": {
+            "from": "locations",          # The collection to join
+            "localField": "user_id",      # Field from the users collection
+            "foreignField": "user_id",    # Field from the locations collection
+            "as": "user_location"         # Output array field that contains the joined records
+        }
+    },
+    {
+        "$unwind": "$user_location"       # Deconstructs the array field from the output to output a document for each element
+    },
+    {
+        "$project": {                     # Define the structure of the output documents
+            "_id": 0,                     # Exclude this field
+            "username": 1,                 # Include user_id
+            "first_name": 1,              # Include first_name
+            "last_name": 1,               # Include last_name
+            "lattitude": "$user_location.lattitude",  # Include latitude from the joined data
+            "longitude": "$user_location.longitude" # Include longitude from the joined data
+        }
+    }
+]
+
+# Define the route handler function
+@app.get("/user_locations")
+async def get_user_locations():
+    try:
+        # Connect to MongoDB
+        client = MongoClient("mongodb://localhost:27017")
+        db = client["candy_store"]  # Use your database name
+        users_collection = db["users"]  # Use your users collection name
+
+        # Execute the aggregation pipeline
+        result = users_collection.aggregate(pipeline)
+
+        # Convert the aggregation result to a list
+        user_locations = list(result)
+
+        # Return the result
+        return user_locations
+    except Exception as e:
+        # Handle any exceptions
+        return {"error": str(e)}
+
+# Add the route to FastAPI app in your main file
+# app.include_router(router)
 """
 This main block gets run when you invoke this file. How do you invoke this file?
         python api.py
