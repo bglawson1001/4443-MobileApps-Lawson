@@ -1,8 +1,8 @@
-## A08 - Image_Upload
+## MobileApp
 ### Brayden Lawson
 ### Description:
 
-In this assignment Dr.Griffin wanted us to add the ability to access our phone's camera and upload images to our server. We were not able to get the backend working so right now it works with only local images. The image upload route was crashing the api. 
+The final version of the app me and Jorge Santos have been working on.  
 
 ### Files
 
