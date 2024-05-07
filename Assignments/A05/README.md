@@ -2,7 +2,7 @@
 ### Brayden Lawson
 ### Description:
 
-In this assignment Dr.Griffin wanted us to start adding functionality to our app. This assignment is focused on login, registration, and a way to search for candies. Me and Jorge decided to make it so the user could search by typing a keyword, as well as the category that the Candy is in. They can choose to only do keyword search, only category search, or both which narrows down the amount of candies shown. We also have a landing page that shows a logo as well as the option to login which then give the user the option to login with an account that already exists or make a new account. 
+In this assignment Dr.Griffin wanted us to start adding functionality to our app. This assignment is focused on login, registration, and a way to search for candies. Me and Jorge decided to make it so the user could search by typing a keyword, as well as the category that the Candy is in. They can choose to only do keyword search, only category search, or both which narrows down the amount of candies shown. We also have a landing page that shows a logo as well as the option to login which then give the user the option to login with an account that already exists or make a new account. The files above are the files for the app.
 
 ### Files
 
