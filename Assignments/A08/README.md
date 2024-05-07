@@ -2,13 +2,13 @@
 ### Brayden Lawson
 ### Description:
 
-In this assignment Dr.Griffin wanted us to add the ability to access our phone's camera and upload images to our server. 
+In this assignment Dr.Griffin wanted us to add the ability to access our phone's camera and upload images to our server. We were not able to get the backend working so right now it works with only local images. The image upload route was crashing the api. 
 
 ### Files
 
 |   #   | Name     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | [chat.tsx](https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/A05/app/(tabs)/chat.tsx) | This is the file that contains the code for the chat screen.  |
+|   1   | [ImageUpload.tsx](https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/A05/app/(tabs)/chat.tsx) | This is the file that contains the code for the chat screen.  |
 
 
 ### Partner
