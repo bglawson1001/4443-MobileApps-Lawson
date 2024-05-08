@@ -10,7 +10,7 @@
 | 06    | [A06](https://github.com/bglawson1001/4443-MobileApps-Lawson/tree/main/Assignments/A06) | Location
 | 07    | [A07](https://github.com/bglawson1001/4443-MobileApps-Lawson/tree/main/Assignments/A07) | Chat
 | 08    | [A08](https://github.com/bglawson1001/4443-MobileApps-Lawson/tree/main/Assignments/A08) | Image Upload 
-| 09   | [MobileApp](https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/MobileApp/README.md) | Page with information about our app as well as where to go to see all of the code for it.
+| 09   | [MobileApp](https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/MobileApp/README.md) | Page with information about our app as well as where to go to see all of the code for it. This is the final version of the app. 
 
 
 
