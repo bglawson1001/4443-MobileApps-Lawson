@@ -8,7 +8,7 @@ In this assignment Dr.Griffin wanted us to add a chat feature to our app that wo
 
 |   #   | Name     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | [chat.tsx](https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/A05/app/(tabs)/chat.tsx) | This is the file that contains the code for the chat screen. It has a candy theme with a pink background and some pieces of candy on the screen as a design.  |
+|   1   | [chat.tsx](https://github.com/jorcsan/4443-MobileApps/blob/main/Assignments/MobileApp/FoodOrdering/app/(tabs)/chat.tsx) | This is the file that contains the code for the chat screen. It has a candy theme with a pink background and some pieces of candy on the screen as a design.  |
 
 
 ### Partner
