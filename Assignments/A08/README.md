@@ -8,7 +8,7 @@ In this assignment Dr.Griffin wanted us to add the ability to access our phone's
 
 |   #   | Name     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | [ImageUpload.tsx](https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/A05/components/ImageUpload.tsx) | This is the file that contains the code for the image upload component.  |
+|   1   | [ImageUpload.tsx](https://github.com/jorcsan/4443-MobileApps/blob/main/Assignments/MobileApp/FoodOrdering/components/ImageUpload.tsx) | This is the file that contains the code for the image upload component.  |
 
 
 ### Partner
