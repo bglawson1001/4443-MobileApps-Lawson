@@ -12,7 +12,7 @@ In this assignment Dr.Griffin wanted us to add the ability to access our phone's
 
 
 ### Partner
-I am working on this app with Jorge Santos https://github.com/jorcsan/4443-MobileApps
+I worked on this app with Jorge Santos https://github.com/jorcsan/4443-MobileApps
 
 
 ### Instructions
