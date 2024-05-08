@@ -12,7 +12,7 @@ In this assignment Dr.Griffin wanted us to add a chat feature to our app that wo
 
 
 ### Partner
-I am working on this app with Jorge Santos https://github.com/jorcsan/4443-MobileApps
+I worked on this app with Jorge Santos https://github.com/jorcsan/4443-MobileApps
 
 
 ### Instructions
