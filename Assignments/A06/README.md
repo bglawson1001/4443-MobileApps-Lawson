@@ -13,7 +13,7 @@ This means, that when you build your map page, you will need to join your users 
 
 |   #   | Name     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | [location.tsx](https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/A05/app/(tabs)/location.tsx) | This is the file that contains the code for the location screen .  |
+|   1   | [location.tsx](https://github.com/jorcsan/4443-MobileApps/blob/main/Assignments/MobileApp/FoodOrdering/app/(tabs)/location.tsx) | This is the file that contains the code for the location screen .  |
 
 
 ### Partner
