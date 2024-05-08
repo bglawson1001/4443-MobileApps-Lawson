@@ -8,9 +8,9 @@ In this assignment Dr.Griffin wanted us to start adding functionality to our app
 
 |   #   | Name     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | [login.tsx](https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/A05/app/(auth)/login.tsx) | This is the file that contains the code for the login.  |
-|   2   | [sign-up.tsx](https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/A05/app/(auth)/sign-up.tsx) | This file contains the code for the registration. 
-|   3   | [Search.tsx](https://github.com/bglawson1001/4443-MobileApps-Lawson/blob/main/Assignments/A05/components/Search.tsx) | This file contains the code for the Search component. |
+|   1   | [login.tsx](https://github.com/jorcsan/4443-MobileApps/blob/main/Assignments/MobileApp/FoodOrdering/app/(auth)/login.tsx) | This is the file that contains the code for the login.  |
+|   2   | [sign-up.tsx](https://github.com/jorcsan/4443-MobileApps/blob/main/Assignments/MobileApp/FoodOrdering/app/(auth)/sign-up.tsx) | This file contains the code for the registration. 
+|   3   | [Search.tsx](https://github.com/jorcsan/4443-MobileApps/blob/main/Assignments/MobileApp/FoodOrdering/components/Search.tsx) | This file contains the code for the Search component. |
 
 
 ### Partner
