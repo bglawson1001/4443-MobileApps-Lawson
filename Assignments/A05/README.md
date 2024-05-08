@@ -14,7 +14,7 @@ In this assignment Dr.Griffin wanted us to start adding functionality to our app
 
 
 ### Partner
-I am working on this app with Jorge Santos https://github.com/jorcsan/4443-MobileApps
+I worked on this app with Jorge Santos https://github.com/jorcsan/4443-MobileApps
 
 
 ### Instructions
