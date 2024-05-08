@@ -17,7 +17,7 @@ This means, that when you build your map page, you will need to join your users 
 
 
 ### Partner
-I am working on this app with Jorge Santos https://github.com/jorcsan/4443-MobileApps
+I worked on this app with Jorge Santos https://github.com/jorcsan/4443-MobileApps
 
 
 ### Instructions
